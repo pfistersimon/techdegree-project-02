@@ -15,11 +15,16 @@ body {
 
 p {
 	line-height: 1.8;
+	color: grey;
 }
 
 p,
 ul{
 	width: 80%;
+}
+
+ul{
+	list-style: none;
 }
 
 
@@ -62,10 +67,9 @@ footer {
 
 /*main*/
 
-#portfolio,
-#contact {
+#portfolio{
 	margin: 50px 0 30px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -73,10 +77,91 @@ footer {
 .img {
 	width: 80%;
 	margin-bottom: 20px;
+	margin-top: 30px;
 }
+
+
+.container h2{
+	font-family: "Oswald", Arial, sans-serif
+}
+
 
 .container h2,
 .container p {
 	padding-bottom: 25px;
 }
+
+
+
+/*===========footer================*/
+
+/*main footer style*/
+
+
+#contact {
+	padding: 40px 0 30px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main-footer p{
+	padding:  20px 0;
+}
+
+
+
+
+
+/*footer-nav stayle*/
+
+.screen{
+	display: none;
+}
+
+.mobil{
+/*	display: inline-block;*/
+	float: right;
+}
+
+
+.secondary-nav p{/*
+	display: inline-block;*/
+	float: left;
+}
+
+
+.footer-nav{
+	display: inline-block;
+}
+
+
+/*======== Float Clear fix=========*/
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
