@@ -57,6 +57,7 @@ footer {
 
 .profil {
 	margin-bottom: 15px;
+	width: 80%;
 }
 
 .info-text{
@@ -115,26 +116,27 @@ footer {
 
 /*footer-nav stayle*/
 
+.screen,
+.mobil{
+	display: inline-block;
+}
+
 .screen{
 	display: none;
 }
 
+
+/*float*/
+
+
+.name{
+	float: left;
+	text-align: left;
+}
+
 .mobil{
-/*	display: inline-block;*/
 	float: right;
 }
-
-
-.secondary-nav p{/*
-	display: inline-block;*/
-	float: left;
-}
-
-
-.footer-nav{
-	display: inline-block;
-}
-
 
 /*======== Float Clear fix=========*/
 
