@@ -23,13 +23,34 @@ ul{
 	width: 80%;
 }
 
-ul{
+ul,
+li{
 	list-style: none;
 }
 
 
+
+
+/*links*/
 a{
 	text-transform: uppercase;
+}
+
+a:link{
+	text-decoration: none;
+	color: black
+}
+
+a:visited{
+	color: lightblue;
+}
+
+a:hover{
+	color: darkblue;
+}
+
+a:active{
+	color: red;
 }
 
 
