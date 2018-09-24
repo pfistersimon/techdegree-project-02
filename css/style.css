@@ -142,6 +142,9 @@ footer {
 
 /*footer-nav stayle*/
 
+.nav-footer{
+	height: 1.5rem;
+}
 
 .screen{
 	display: none;
@@ -153,7 +156,7 @@ footer {
 .name,
 .mobil{
 	width: 50%;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 
