@@ -28,6 +28,11 @@ ul{
 }
 
 
+a{
+	text-transform: uppercase;
+}
+
+
 
 
 /*======Style Layout=====================*/
@@ -116,10 +121,6 @@ footer {
 
 /*footer-nav stayle*/
 
-.screen,
-.mobil{
-	display: inline-block;
-}
 
 .screen{
 	display: none;
@@ -128,15 +129,22 @@ footer {
 
 /*float*/
 
+.name,
+.mobil{
+	width: 50%;
+	padding-top: 10px;
+}
+
 
 .name{
 	float: left;
-	text-align: left;
+
 }
 
 .mobil{
 	float: right;
 }
+
 
 /*======== Float Clear fix=========*/
 
