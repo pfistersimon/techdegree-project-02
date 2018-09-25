@@ -257,41 +257,20 @@ footer {
 
 @media (min-width: 1024px) {
 
-	.container{
-		width: 90%;
-		margin: 0 auto;
+	.menu{
+		display: inline;
 	}
 
 	.menu h1{
-		float: left;
-		display: inline;
+		text-align: left;
 	}
 
-	.nav-header{
-		float: right;
-	}
-	
 	.nav-header ul{
-		display: inline;
-		margin-right: 380px;
+		text-align: right;
 	}
 
-}
-
-/*Portfolio*/
-
-.port-items{
-	width: 30%;
-	float: left;
-	margin: 0 auto;
 
 }
-
-
-
-
-
-
 
 
 /*======== Float Clear fix=========*/
