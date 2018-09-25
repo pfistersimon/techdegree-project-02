@@ -170,6 +170,95 @@ footer {
 }
 
 
+
+
+
+/*============media queries==========*/
+
+@media (min-width: 768px) {
+
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+
+	.nav-header li{
+		width: 15%;
+		display: inline;
+	}
+
+
+/*Nav img and text*/
+
+
+/*	.profil,
+	.info-text{
+		width: 50%;
+		margin: 0 auto;
+	}
+*/
+
+	.profil{
+		max-width: 40%;
+		float: right;
+		margin-right: 40px;
+		margin-bottom: 40px;
+
+	}
+
+
+	.info-text{
+		width: 40%;
+		float: left;
+		margin-left: 40px;
+		text-align: left;
+	}
+
+
+
+/*Portfolio*/
+
+
+
+.port-items{
+	width: 50%;
+	float: left;
+}
+
+/*.img{
+	width: 40%
+}
+*/
+
+.main-footer p {
+	width: 50%;
+}
+
+
+/*nav footer*/
+
+.mobil{
+	display: none;
+}
+
+.screen,
+.screen li{
+	display: inline;
+}
+
+.name,
+.screen li{
+	padding-top: 10px;
+}
+
+
+
+}
+
+
+
+
 /*======== Float Clear fix=========*/
 
 .clearfix::after {

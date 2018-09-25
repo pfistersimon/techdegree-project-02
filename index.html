@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="EN">
+	
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	</head>
 
+
+
 	<body>
 		<header id="top">
-			<div class="menu">
+			<div class="menu clearfix">
 				<h1>Simon Pfister</h1>
-					<nav>
+					<nav class="nav-header">
 						<ul>
 							<li><a href="#top">Home</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
@@ -25,8 +28,8 @@
 						</ul>
 					</nav>
 
-				<img src="images/responsive-layout-profile.png" alt="Prolie Picture from Simon Pfister" class="profil" />
-
+				<img src="images/responsive-layout-profile.png" alt="Prolie Picture from Simon Pfister" class="profil clearfix" />
+ 
 				<p class="info-text">Hi! I'm a front-ebd developer who loves responsive design and css. I recently finished learning front-end web developnet at Treehouse and am excited to put all my skills to use!</p>
 			</div>
 
@@ -34,16 +37,16 @@
 
 		<!-- Portfolio -->
 
-		<main class="container">
+		<main class="container clearfix">
 			<h1 id="portfolio"><strong>Portfolio</strong></h1>
 			
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-1.png" alt="Mareting Website" class="img">
 				<h2>Marketing Page</h2>
 				<p>this project shows the frint oage of a Marketing website meant for a specific business 'm intrested in.</p>
 			</div>
 
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-2.png" alt="Search Website" class="img">
 				<h2>Search Page</h2>
 				<p>This prject searches through a specific database to find information that the user is trying to look up</p>
@@ -51,7 +54,7 @@
 
 
 
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-3.png" alt="Travel App Website" class="img">
 				<h2>Travel App</h2>
 				<p>This project compares travel times based on different transportation methods and tells you the best one</p>
@@ -59,21 +62,21 @@
 
 
 
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-4.png" alt="Favorite Spots for Walk" class="img">
 				<h2>Map of the Favorite Spots</h2>
 				<p>This prject uses mapping apis to plot points for my favorite spots in the city for a do it yourself walking tour</p>
 			</div>
 
 
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-5.png" alt="A Photo Gallery Website" class="img">
 				<h2>Photo Gallery</h2>
 				<p>This prject shows poctures from a recent trip to the viewer and allows them to easilu navigate through photos</p>
 			</div>
 
 
-			<div>
+			<div class="port-items">
 				<img src="images/portfolio-6.png" alt="Calculator to cauculate Numbers" class="img">
 				<h2>Calculator</h2>
 				<p>Someone can enter in the numbers they want, and press the big blue button and get the result</p>
@@ -82,7 +85,10 @@
 		</main>
 
 
-		<footer>
+		<!-- Contact -->
+
+
+		<footer class= clearfix>
 			<div class="main-footer">
 				<h1 id="contact">Contact</h1>
 
@@ -97,10 +103,10 @@
 
 				<!-- screen nav -->
 
-				<nav class="nav-footer clearfix ">
-					<p class="name clearfix">Simon Pfister</p>
+				<nav class="nav-footer ">
+					<p class="name">Simon Pfister</p>
 
-					<ul class="screen clearfix">
+					<ul class="screen">
 						<li><a href="#top">Home</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -110,7 +116,7 @@
 
 					<!-- Mobile Aproche nav -->
 				
-					<ul class="mobil clearfix">
+					<ul class="mobil">
 						<li><a href="#top">Back to Top</a></li>
 					</ul>
 
