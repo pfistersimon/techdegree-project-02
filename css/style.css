@@ -242,19 +242,54 @@ footer {
 	display: none;
 }
 
-.screen,
+/*.screen,
 .screen li{
 	display: inline;
 }
+*/
+.nav-footer{
+	display: inline;
+}
 
-.name,
-.screen li{
-	padding-top: 10px;
+
+}
+
+
+@media (min-width: 1024px) {
+
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.menu h1{
+		float: left;
+		display: inline;
+	}
+
+	.nav-header{
+		float: right;
+	}
+	
+	.nav-header ul{
+		display: inline;
+		margin-right: 380px;
+	}
+
+}
+
+/*Portfolio*/
+
+.port-items{
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+
 }
 
 
 
-}
+
 
 
 
