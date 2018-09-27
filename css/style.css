@@ -1,6 +1,9 @@
 
 
 /*=====Global Layout====================*/
+
+
+
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -40,7 +43,7 @@ a{
 
 a:link{
 	text-decoration: none;
-	color: black
+	color: black;
 }
 
 a:visited{
@@ -127,13 +130,50 @@ a:active{
 
 /*===========footer================*/
 
-/*main footer style*/
+/*footer contact*/
+
+.main-contact{
+	margin: 30px 0;
+}
+
+#contact{
+	margin: 50px 0 30px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 
 
 
+/*footer-nav stily*/
 
-/*footer-nav stayle*/
+footer{
+	height: 2em;
+}
+
+
+.foot a, 
+ .foot-nav{
+ 	font-weight: bold;
+ }
+
+.foot h3{
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+.foot a{
+	float: right;
+	margin: 20px 20px 0 0;
+}
+
+
+.foot-nav ul{
+	display: none;
+}
+
+
 
 
 
@@ -142,15 +182,19 @@ a:active{
 @media (min-width: 768px) {
 
 	.container{
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 
 
 	.nav-bar li{
 		width: 15%;
+		padding: 0 20px;
 		display: inline;
+		background: none
 	}
+
+
 
 
 /*Nav img and text*/
@@ -180,117 +224,32 @@ a:active{
 
 
 
-	.port-items{
-		width: 50%;
-		float: left;
-	}
-
-
-
-	.main-footer p {
-		width: 50%;
-	}
-
-
-/*nav footer*/
-
-	.mobil{
-		display: none;
-	}
-
-
-	.nav-footer{
-		padding-top: 30px;
-	}
-
-
-	.screen,
-	.screen li{
-		display: inline;
-	}
-	
-
-	.screen li {
-		padding-top: 20px;
-	}
-
-
-	.nav-footer{
-		padding-top: 0;
-	}
-
-
-}
-
-
-@media (min-width: 1024px) {
-
-	
-/*header*/
-
-	
-
-	.nav-header ul{
-		display: inline;
-
-	}
-
-	.nav-header h1{
-		float:left;
-		margin-left: 80px;
-		padding: 10px 0 10px 15px;
-	}
-
-	.nav-bar {
-		float: right;
-		margin-right: 60px;
-		padding: 20px 15px 10px 0;	
-	}
-
-
-	.nav-bar li{
-		padding-right: 50px;
-	}
-
-	.nav-header li{
-		background: none;
-		font-weight: bold;
-
-	}
-
-	.intro{
-		margin-top: 50px;
-		width: 90%;
-	}
-
-
-	.intro p{
-		max-width: 400px;
-	}
-
-
-	.intro img{
-
-		margin-right: 80px;
-	}
-
-	
-/*main*/
-
-
-.port-items {
-	width: 33%;
+.port-items{
+	width: 50%;
 	float: left;
 }
 
-.center {
-	margin-left:20px;
+
+/*contact*/
+
+.main-contact p{
+	max-width: 410px;
 }
 
 
+/*footer*/
+
+.foot-nav ul{
+	display: inline;
+}
+
+.foot a {
+	display: none;
+}
 
 
 }
+
 
 
 	
