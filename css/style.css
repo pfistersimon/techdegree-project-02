@@ -183,7 +183,7 @@ footer {
 	}
 
 
-	.nav-header li{
+	.nav-bar li{
 		width: 15%;
 		display: inline;
 	}
@@ -257,20 +257,31 @@ footer {
 
 @media (min-width: 1024px) {
 
-	.menu{
+	.nav-header ul{
 		display: inline;
 	}
 
-	.menu h1{
-		text-align: left;
+
+	.nav-header h1{
+		float: left
 	}
 
-	.nav-header ul{
-		text-align: right;
+	.nav-bar {
+		float: right;
+		
+		
 	}
 
 
+	.intro{
+		margin-top: 50px;
+	}
+
+	
 }
+
+
+	
 
 
 /*======== Float Clear fix=========*/
