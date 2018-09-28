@@ -119,7 +119,8 @@ a:active{
 
 
 .container h2{
-	font-family: "Oswald", Arial, sans-serif
+	font-family: "Oswald", Arial, sans-serif;
+	color: #000;
 }
 
 
@@ -140,15 +141,6 @@ a:active{
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -257,6 +249,21 @@ footer{
 }
 
 
+
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+
+.center {
+	margin-left:20px;
+}
+
+
+
+
 /*contact*/
 
 .main-contact p{
@@ -358,6 +365,15 @@ footer{
 .center {
 	margin-left:20px;
 }
+
+
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+
 
 
 }
