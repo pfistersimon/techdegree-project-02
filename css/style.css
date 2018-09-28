@@ -15,7 +15,6 @@ body {
 	text-align: center;
 	font-family:  "Roboto", sans-serif;
 	background-color: #f5f5f5;
-	max-width: 1400px;  /* not sure to have it*/
 }
 
 p {
@@ -145,7 +144,6 @@ a:active{
 
 
 
-
 /*footer-nav stily*/
 
 footer{
@@ -174,6 +172,13 @@ footer{
 }
 
 
+
+
+/*wrapper*/
+
+.wrap{
+	min-height: calc(100vh - 45px);
+}
 
 
 
@@ -216,9 +221,6 @@ footer{
 		text-align: left;
 	}
 
-	
-
-
 
 /*Portfolio*/
 
@@ -241,9 +243,15 @@ footer{
 
 .foot-nav ul{
 	display: inline;
+	float: right;
+	margin-right: 20px;
 }
 
-.foot a {
+.foot-nav a{
+	padding: 0 15px;
+}
+
+.to-top{
 	display: none;
 }
 
@@ -319,8 +327,6 @@ footer{
 .center {
 	margin-left:20px;
 }
-
-
 
 
 }
