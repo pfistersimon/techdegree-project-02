@@ -95,6 +95,9 @@ a:active{
 
 /*main*/
 
+
+/*Portfolio*/
+
 .container {
 	background-color: #ffffff;
 }
@@ -124,6 +127,28 @@ a:active{
 .container p {
 	padding-bottom: 25px;
 }
+
+
+
+
+/*Skill*/
+
+#skill{
+	margin: 20px 0 30px;
+	padding-top: 30px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 
