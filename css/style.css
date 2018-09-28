@@ -147,7 +147,7 @@ a:active{
 /*footer-nav stily*/
 
 footer{
-	height: 2em;
+	height: 3em;
 }
 
 
@@ -318,6 +318,12 @@ footer{
 	
 /*main*/
 
+.container{
+	width: 90%;
+	max-width: 1400px;
+}
+
+
 
 .port-items {
 	width: 33%;
@@ -332,8 +338,6 @@ footer{
 }
 
 
-
-	
 
 
 /*======== Float Clear fix=========*/
